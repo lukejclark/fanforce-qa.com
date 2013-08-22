@@ -15,7 +15,7 @@ map "/" do
 }
 end
 
-map "/universal" do
+map "/universal-database" do
   run lambda { |env|
   [
     200, 
@@ -23,7 +23,20 @@ map "/universal" do
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('public/universal.html', File::RDONLY)
+    File.open('public/universal-database.html', File::RDONLY)
+  ]
+}
+end
+
+map "/quantified-results" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/quantified-results.html', File::RDONLY)
   ]
 }
 end
