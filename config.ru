@@ -66,3 +66,16 @@ map "/life-sized-tracking" do
   ]
 }
 end
+
+map "/engage-anywhere" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/engage-anywhere.html', File::RDONLY)
+  ]
+}
+end
