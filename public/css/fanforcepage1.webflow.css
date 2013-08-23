@@ -554,6 +554,7 @@ p {
   }
   .hero-header {
     padding-top: 68px;
+    padding-left: 1px;
     font-size: 38px;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
   }
@@ -566,12 +567,25 @@ p {
   .hero-image {
     margin-top: 0px;
     margin-bottom: 38px;
+    margin-left: 1px;
     padding-top: 0px;
+  }
+  .hero-paragraph {
+    padding-left: 1px;
+  }
+  .social-image {
+    margin-left: 213px;
+  }
+  .footer-logo {
+    margin-left: 40px;
+    padding-left: 0px;
   }
 }
 @media (max-width: 767px) {
   h2 {
     margin-top: 0px;
+    margin-bottom: 14px;
+    padding-top: 1px;
     text-align: center;
   }
   .button {
@@ -600,6 +614,8 @@ p {
     text-align: center;
   }
   .section.hero {
+    padding-top: 42px;
+    padding-bottom: 90px;
     background-image: url(../images/background.jpg);
     text-align: center;
   }
@@ -623,8 +639,9 @@ p {
     text-align: center;
   }
   .hero-header {
-    margin-bottom: 44px;
+    margin-bottom: 54px;
     padding-top: 0px;
+    padding-left: 1px;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
   }
@@ -642,6 +659,7 @@ p {
   .universalimages {
     margin-right: 15px;
     margin-left: 80px;
+    padding-bottom: 0px;
   }
   .universalimages.segmentimage {
     margin-right: 0px;
@@ -649,14 +667,37 @@ p {
   .body-paragraphs {
     text-align: center;
   }
+  .body-paragraphs.segmentbody {
+    padding-left: 0px;
+  }
   .footer-box {
     box-shadow: none;
   }
   .hero-image {
     width: 400px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+  .hero-paragraph {
+    margin-bottom: 11px;
+    padding-top: 1px;
+    padding-left: 2px;
+  }
+  .segmentheader {
+    padding-top: 31px;
+    padding-left: 1px;
+  }
+  .traffic-header {
+    margin-top: -55px;
+    margin-bottom: 8px;
+    padding-top: 0px;
+    padding-bottom: 8px;
   }
 }
 @media (max-width: 479px) {
+  h2 {
+    padding-top: 0px;
+  }
   h3 {
     font-size: 18px;
     line-height: 23px;
@@ -685,6 +726,9 @@ p {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  .section.grey {
+    padding-top: 24px;
+  }
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
   }
@@ -700,5 +744,31 @@ p {
   }
   .price-text {
     font-size: 23px;
+  }
+  .bottomsection {
+    margin-bottom: 0px;
+  }
+  .universalimages {
+    margin-left: 1px;
+  }
+  .universalimages.segmentimage {
+    margin-top: 1px;
+    margin-left: 0px;
+  }
+  .hero-image {
+    width: 200px;
+  }
+  .social-image {
+    margin-left: 1px;
+    padding-top: 26px;
+  }
+  .footer-logo {
+    margin-left: 1px;
+  }
+  .live-sync-image {
+    padding-bottom: 29px;
+  }
+  .live-merge-image {
+    padding-bottom: 29px;
   }
 }
