@@ -643,6 +643,7 @@ p {
     margin-top: 23px;
   }
   p {
+    margin-left: 22px;
     padding-left: 54px;
     font-size: 14px;
     line-height: 21px;
@@ -704,16 +705,21 @@ p {
   }
   .pricing-image {
     margin-top: 27px;
-    margin-left: 129px;
+    margin-left: 108px;
   }
   .price-image {
-    margin-left: 86px;
+    margin-left: 67px;
   }
 }
 @media (max-width: 767px) {
   h2 {
     margin-top: 0px;
     padding-top: 0px;
+    text-align: center;
+  }
+  p {
+    margin-left: 4px;
+    padding-left: 1px;
     text-align: center;
   }
   .button {
@@ -807,6 +813,14 @@ p {
     margin-left: 1px;
     padding-bottom: 126px;
   }
+  .pricing-image {
+    width: 300px;
+    margin-left: 2px;
+  }
+  .price-image {
+    width: 400px;
+    margin-left: 0px;
+  }
 }
 @media (max-width: 479px) {
   h3 {
@@ -843,6 +857,11 @@ p {
   .logo-in-header {
     text-shadow: black 0px 0px 0px;
   }
+  .nav-column {
+    padding-top: 6px;
+    padding-right: 39px;
+    padding-left: 0px;
+  }
   .hero-header {
     font-size: 32px;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
@@ -852,5 +871,8 @@ p {
   }
   .price-text {
     font-size: 23px;
+  }
+  .nav-row {
+    padding-right: 0px;
   }
 }
