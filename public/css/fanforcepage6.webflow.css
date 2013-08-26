@@ -614,7 +614,7 @@ p {
 }
 @media (max-width: 991px) {
   h2 {
-    margin-top: 78px;
+    margin-top: 55px;
   }
   p {
     margin-left: 1px;
@@ -650,9 +650,15 @@ p {
     text-shadow: black 0px 0px 0px;
   }
   .universalimages {
-    width: 275px;
+    width: 250px;
     margin-left: 27px;
     padding-bottom: 1px;
+  }
+  .universalimages.segmentimage {
+    width: 250px;
+  }
+  .body-paragraphs.tf {
+    margin-left: 0px;
   }
   .hero-image {
     width: 250px;
@@ -662,7 +668,8 @@ p {
     padding-top: 0px;
   }
   .segmentheader {
-    margin-top: 49px;
+    margin-top: 24px;
+    padding-left: 0px;
   }
   .header-image {
     margin-bottom: 0px;
@@ -670,11 +677,14 @@ p {
     padding-bottom: 112px;
   }
   .truefan-image {
+    width: 300px;
+    margin-top: 33px;
     margin-left: 0px;
     padding-left: 22px;
   }
   .anytext {
     margin-top: 33px;
+    padding-left: 1px;
   }
   .tools-image {
     width: 350px;
@@ -688,6 +698,7 @@ p {
 @media (max-width: 767px) {
   h2 {
     margin-top: 0px;
+    padding-left: 0px;
     text-align: center;
   }
   .button {
@@ -702,9 +713,7 @@ p {
   .button.app-store {
     margin-top: 12px;
     margin-bottom: 0px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
@@ -762,6 +771,11 @@ p {
   .subfooter-left {
     text-align: center;
   }
+  .center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .bottomsection {
     margin-bottom: 6px;
   }
@@ -769,17 +783,21 @@ p {
     margin-bottom: 73px;
   }
   .universalimages {
+    display: block;
     margin-top: 33px;
-    margin-right: 15px;
-    margin-left: 147px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 18px;
   }
   .universalimages.segmentimage {
-    margin-right: 0px;
-    margin-left: 2px;
+    margin-left: 155px;
   }
   .body-paragraphs {
     text-align: center;
+  }
+  .body-paragraphs.rank {
+    margin-left: 0px;
+    padding-left: 0px;
   }
   .footer-box {
     box-shadow: none;
@@ -818,17 +836,16 @@ p {
     line-height: 23px;
   }
   .button {
-    margin: 13px 2px 32px 0px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    margin: 13px 9px 32px 0px;
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
@@ -867,12 +884,12 @@ p {
   }
   .universalimages {
     width: 250px;
-    margin-right: 2px;
-    margin-left: 27px;
     padding-left: 1px;
   }
   .universalimages.segmentimage {
     width: 200px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .body-paragraphs.rank {
     padding-left: 1px;

@@ -92,3 +92,29 @@ map "/unlimited-customization" do
   ]
 }
 end
+
+map "/actionable-analytics" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/actionable-analytics.html', File::RDONLY)
+  ]
+}
+end
+
+map "/sign-up" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/sign-up.html', File::RDONLY)
+  ]
+}
+end
