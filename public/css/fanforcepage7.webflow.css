@@ -123,8 +123,8 @@ p {
 .section {
   position: static;
   margin-bottom: 0px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 .section.hero {
@@ -641,6 +641,18 @@ p {
   font-weight: 500;
   text-align: center;
 }
+.header-box {
+  height: 71px;
+}
+.header-fixed {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 8;
+  background-color: white;
+  box-shadow: #bfbbbb 0px 0px 17px -1px;
+}
 @media (max-width: 991px) {
   h2 {
     margin-top: 23px;
@@ -745,7 +757,7 @@ p {
     text-align: center;
   }
   .button {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
@@ -754,18 +766,21 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
-    margin-top: 12px;
     margin-bottom: 0px;
     background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
-    padding-top: 33px;
+    padding-top: 9px;
     padding-bottom: 0px;
     text-align: center;
   }
   .section.hero {
+    padding-top: 0px;
     background-image: url(../images/background.jpg);
     text-align: center;
   }
@@ -778,14 +793,12 @@ p {
   }
   .logo-in-header {
     display: block;
-    margin-right: auto;
-    margin-bottom: 12px;
-    margin-left: auto;
+    margin: 0px auto 12px;
     float: none;
     text-shadow: black 0px 0px 0px;
   }
   .nav-column {
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
   }
   .hero-header {
@@ -850,11 +863,13 @@ p {
     line-height: 23px;
   }
   .button {
-    margin-top: 16px;
-    margin-bottom: 28px;
+    margin-top: 0px;
     margin-left: 11px;
     background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
@@ -862,6 +877,9 @@ p {
     margin-bottom: 0px;
     background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
@@ -876,7 +894,8 @@ p {
     padding-bottom: 0px;
   }
   .section.purple {
-    margin-top: 40px;
+    margin-top: 25px;
+    background-image: url(../images/background.jpg);
   }
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
@@ -901,6 +920,9 @@ p {
   }
   .price-text {
     font-size: 23px;
+  }
+  .subfooter-left {
+    padding-top: 4px;
   }
   .price-image {
     width: 300px;

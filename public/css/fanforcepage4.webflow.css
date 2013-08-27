@@ -118,11 +118,12 @@ p {
 .section {
   position: static;
   margin-bottom: 0px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 .section.hero {
+  margin-top: 25px;
   padding-top: 0px;
   padding-bottom: 77px;
   background-image: url(../images/background.jpg);
@@ -589,6 +590,25 @@ p {
 .social-image {
   margin-left: 353px;
 }
+.header-box {
+  height: 100px;
+}
+.header-fixed {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 8;
+  background-color: white;
+  box-shadow: #bfbbbb 0px 0px 17px -1px;
+}
+.sub-nav {
+  background-color: white;
+}
+.sub-naav-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 @media (max-width: 991px) {
   h2 {
     margin-top: 23px;
@@ -606,6 +626,7 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section.hero {
+    margin-top: 64px;
     padding-bottom: 1px;
     background-image: url(../images/background.jpg);
   }
@@ -711,10 +732,11 @@ p {
   }
   .nav-column {
     padding-top: 15px;
+    padding-bottom: 0px;
     text-align: center;
   }
   .hero-header {
-    margin-top: -78px;
+    margin-top: 0px;
     margin-bottom: 91px;
     padding-top: 0px;
     text-align: center;
@@ -752,6 +774,7 @@ p {
   }
   .hero-image {
     width: 400px;
+    margin-bottom: 21px;
   }
   .segmentheader {
     padding-top: 31px;
@@ -777,6 +800,19 @@ p {
     margin-top: 32px;
     margin-left: 1px;
   }
+  .top-container {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .header-box {
+    height: 220px;
+  }
+  .header-fixed {
+    position: static;
+  }
+  .sub-nav {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 479px) {
   h3 {
@@ -785,6 +821,7 @@ p {
   }
   .button {
     margin-top: 16px;
+    margin-right: 7px;
     margin-bottom: 29px;
     background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
@@ -829,8 +866,9 @@ p {
     padding-left: 1px;
   }
   .hero-header {
-    margin-bottom: 72px;
-    padding-top: 21px;
+    margin-top: -88px;
+    margin-bottom: 85px;
+    padding-top: 1px;
     font-size: 32px;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
   }
@@ -851,6 +889,7 @@ p {
   }
   .hero-image {
     width: 250px;
+    margin-top: -49px;
     margin-bottom: 94px;
   }
   .segmentheader {
@@ -863,5 +902,11 @@ p {
   }
   ._5levelsheader {
     padding-left: 1px;
+  }
+  .header-box {
+    height: 230px;
+  }
+  .sub-naav-row {
+    margin-top: -1px;
   }
 }

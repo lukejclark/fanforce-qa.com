@@ -120,9 +120,10 @@ p {
 }
 .section {
   position: static;
+  margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 .section.hero {
@@ -616,6 +617,22 @@ p {
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
+.header-box {
+  height: 100px;
+}
+.header-fixed {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 8;
+  background-color: white;
+  box-shadow: #bfbbbb 0px 0px 17px -1px;
+}
+.sub-nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 @media (max-width: 991px) {
   h2 {
     margin-top: 23px;
@@ -634,10 +651,23 @@ p {
     transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
+  .button.app-store {
+    background-image: -webkit-linear-gradient(#2ca2ca, #2ca2ca);
+    background-image: -o-linear-gradient(#2ca2ca, #2ca2ca);
+    background-image: linear-gradient(#2ca2ca, #2ca2ca);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
   .section.hero {
     padding-top: 34px;
     padding-bottom: 1px;
     background-image: url(../images/background.jpg);
+  }
+  .section.hero.blue-section {
+    padding-top: 81px;
   }
   .section.white {
     padding-bottom: 65px;
@@ -728,8 +758,13 @@ p {
   .button.app-store {
     margin-top: 12px;
     margin-bottom: 0px;
-    background-image: none;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
@@ -741,6 +776,11 @@ p {
     padding-top: 45px;
     background-image: url(../images/background.jpg);
     text-align: center;
+  }
+  .section.hero.blue-section {
+    margin-top: -23px;
+    padding-top: 41px;
+    padding-bottom: 31px;
   }
   .section.white {
     padding-top: 47px;
@@ -762,7 +802,9 @@ p {
     text-shadow: black 0px 0px 0px;
   }
   .nav-column {
-    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: -31px;
+    padding-top: 0px;
     text-align: center;
   }
   .hero-header {
@@ -819,8 +861,9 @@ p {
   .tmrimage {
     width: 400px;
     margin-top: 33px;
-    margin-bottom: 51px;
+    margin-bottom: 30px;
     margin-left: 1px;
+    padding-bottom: 0px;
   }
   .social-image {
     margin-top: 29px;
@@ -833,7 +876,16 @@ p {
     margin-top: -23px;
   }
   .top-paragrah {
-    margin-top: -26px;
+    margin-top: -25px;
+  }
+  .header-box {
+    height: 230px;
+  }
+  .header-fixed {
+    position: static;
+  }
+  .sub-nav {
+    margin-top: 0px;
   }
 }
 @media (max-width: 479px) {
@@ -860,8 +912,13 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
-    background-image: none;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
@@ -875,6 +932,9 @@ p {
     background-position: 0px 0%;
     background-size: cover;
     background-repeat: repeat repeat;
+  }
+  .section.hero.blue-section {
+    margin-top: 59px;
   }
   .section.white {
     padding-top: 0px;
@@ -901,6 +961,7 @@ p {
     padding-bottom: 0px;
   }
   .nav-column {
+    margin-bottom: 9px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -915,6 +976,9 @@ p {
   }
   .price-text {
     font-size: 23px;
+  }
+  .feature-link {
+    margin-top: 1px;
   }
   .bottomsection {
     margin-top: 1px;
@@ -965,5 +1029,8 @@ p {
   }
   .true-fan-header {
     margin-top: 0px;
+  }
+  .next-up-link {
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
 }

@@ -118,8 +118,8 @@ p {
 .section {
   position: static;
   margin-bottom: 0px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 .section.hero {
@@ -534,15 +534,30 @@ p {
 .traffic-header {
   margin-top: 48px;
 }
+.header-box {
+  height: 100px;
+  background-color: white;
+}
+.header-fixed {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 8;
+  background-color: white;
+  box-shadow: #bfbbbb 0px 0px 17px -1px;
+}
+.sub-nav-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 @media (max-width: 991px) {
   p {
     font-size: 14px;
     line-height: 21px;
   }
   .button {
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -550,8 +565,9 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section.hero {
+    margin-top: 57px;
     padding-top: 34px;
-    padding-bottom: 1px;
+    padding-bottom: 22px;
     background-image: url(../images/background.jpg);
   }
   .hero-iphone {
@@ -613,9 +629,7 @@ p {
   }
   .button {
     margin-bottom: 50px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -625,9 +639,7 @@ p {
   .button.app-store {
     margin-top: 12px;
     margin-bottom: 0px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -640,6 +652,7 @@ p {
     text-align: center;
   }
   .section.hero {
+    margin-top: 14px;
     padding-top: 42px;
     padding-bottom: 93px;
     background-image: url(../images/background.jpg);
@@ -664,7 +677,7 @@ p {
     text-shadow: black 0px 0px 0px;
   }
   .nav-column {
-    padding-top: 15px;
+    padding-top: 3px;
     text-align: center;
   }
   .hero-header {
@@ -734,6 +747,12 @@ p {
   .footer-logo {
     margin-left: 0px;
   }
+  .header-box {
+    height: 230px;
+  }
+  .header-fixed {
+    position: static;
+  }
 }
 @media (max-width: 479px) {
   h2 {
@@ -745,12 +764,10 @@ p {
   }
   .button {
     width: 75px;
-    margin: 15px 12px 30px 0px;
+    margin: 3px 12px 11px 0px;
     padding-right: 0px;
     padding-left: 0px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -812,6 +829,9 @@ p {
   }
   .price-text {
     font-size: 23px;
+  }
+  .feature {
+    margin-top: 0px;
   }
   .bottomsection {
     margin-bottom: 0px;

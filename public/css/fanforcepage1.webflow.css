@@ -117,9 +117,13 @@ p {
 }
 .section {
   position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
   margin-bottom: 0px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 .section.hero {
@@ -127,6 +131,7 @@ p {
   padding-bottom: 60px;
   background-image: url(../images/background.jpg);
   background-size: cover;
+  background-attachment: scroll;
 }
 .section.white {
   margin-top: 31px;
@@ -512,10 +517,15 @@ p {
   padding-top: 0px;
 }
 .hero-image {
+  position: static;
+  display: inline-block;
+  overflow: visible;
   margin-top: 61px;
   margin-left: 49px;
   padding-bottom: 13px;
   padding-left: 0px;
+  float: none;
+  clear: none;
 }
 .hero-paragraph {
   padding-top: 23px;
@@ -531,6 +541,22 @@ p {
 }
 .traffic-header {
   margin-top: 48px;
+}
+.header-box {
+  height: 100px;
+}
+.header-fixed {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 8;
+  background-color: white;
+  box-shadow: #bfbbbb 0px 0px 17px -1px;
+}
+.sub-nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media (max-width: 991px) {
   p {
@@ -554,6 +580,7 @@ p {
     text-shadow: black 0px 0px 0px;
   }
   .hero-header {
+    margin-top: 39px;
     margin-right: 0px;
     margin-left: 0px;
     padding-top: 68px;
@@ -577,7 +604,7 @@ p {
   }
   .hero-image {
     width: 300px;
-    margin-top: 0px;
+    margin-top: 52px;
     margin-bottom: 38px;
     margin-left: 0px;
     padding-top: 0px;
@@ -587,6 +614,9 @@ p {
   }
   .social-image {
     margin-left: 213px;
+  }
+  .traffic-header {
+    margin-top: 30px;
   }
   .footer-logo {
     margin-left: 40px;
@@ -620,12 +650,13 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
-    padding-top: 33px;
+    margin-top: 0px;
+    padding-top: 17px;
     padding-bottom: 0px;
     text-align: center;
   }
   .section.hero {
-    padding-top: 42px;
+    padding-top: 0px;
     padding-bottom: 93px;
     background-image: url(../images/background.jpg);
     text-align: center;
@@ -645,8 +676,16 @@ p {
     float: none;
     text-shadow: black 0px 0px 0px;
   }
+  .nav-link {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .nav-column {
-    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     text-align: center;
   }
   .hero-header {
@@ -665,6 +704,7 @@ p {
     border-top: 1px solid rgba(0, 0, 0, 0.09);
   }
   .subfooter-left {
+    padding-top: 0px;
     text-align: center;
   }
   .universalimages {
@@ -688,7 +728,8 @@ p {
     box-shadow: none;
   }
   .hero-image {
-    margin-top: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 0px;
     padding-bottom: 0px;
   }
@@ -706,13 +747,22 @@ p {
     padding-top: 25px;
   }
   .traffic-header {
-    margin-top: -55px;
+    margin-top: -45px;
     margin-bottom: 8px;
     padding-top: 0px;
     padding-bottom: 8px;
   }
   .footer-logo {
     margin-left: 0px;
+  }
+  .header-box {
+    height: 230px;
+  }
+  .header-fixed {
+    position: static;
+  }
+  .top-blue-section {
+    margin-top: 42px;
   }
 }
 @media (max-width: 479px) {
@@ -725,7 +775,7 @@ p {
   }
   .button {
     width: 75px;
-    margin: 15px 12px 30px 0px;
+    margin: 2px 12px 12px 0px;
     padding-right: 0px;
     padding-left: 0px;
     background-image: none;
@@ -737,7 +787,9 @@ p {
   }
   .button.app-store {
     margin-right: 1px;
-    background-image: none;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -748,6 +800,7 @@ p {
     text-align: center;
   }
   .section.hero {
+    padding-top: 1px;
     background-image: url(../images/background.jpg);
   }
   .section.white {
@@ -827,5 +880,11 @@ p {
   }
   .live-merge-image {
     padding-bottom: 29px;
+  }
+  .header-box {
+    height: 240px;
+  }
+  .header-fixed {
+    position: static;
   }
 }
