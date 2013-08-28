@@ -125,7 +125,18 @@ p {
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button.top-button {
+  margin-top: 0px;
   margin-right: 0px;
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+}
+.button:hover.top-button:hover {
+  background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
+  background-image: -o-linear-gradient(#2ca2ca, #0a5770);
+  background-image: linear-gradient(#2ca2ca, #0a5770);
   box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -136,6 +147,16 @@ p {
   margin-right: 0px;
   margin-left: 24px;
   background-color: #2ca2ca;
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+}
+.button:hover.bottom-button:hover {
+  background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
+  background-image: -o-linear-gradient(#2ca2ca, #0a5770);
+  background-image: linear-gradient(#2ca2ca, #0a5770);
   box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -165,7 +186,27 @@ p {
   font-size: 18px;
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
+.button:hover.sign-up:hover {
+  background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
+  background-image: -o-linear-gradient(#2ca2ca, #0a5770);
+  background-image: linear-gradient(#2ca2ca, #0a5770);
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+}
 .button.database-button {
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+}
+.button:hover.database-button:hover {
+  background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
+  background-image: -o-linear-gradient(#2ca2ca, #0a5770);
+  background-image: linear-gradient(#2ca2ca, #0a5770);
   box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -175,6 +216,16 @@ p {
 .button.cool-button {
   margin-bottom: 62px;
   background-color: #046a8c;
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+}
+.button:hover.cool-button:hover {
+  background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
+  background-image: -o-linear-gradient(#2ca2ca, #0a5770);
+  background-image: linear-gradient(#2ca2ca, #0a5770);
   box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -194,8 +245,8 @@ p {
   margin-bottom: 35px;
   padding-top: 0px;
   padding-bottom: 60px;
-  background-image: url(../images/mapbackground.png);
-  background-position: 67% -52px;
+  background-image: url(../images/newbackground.png);
+  background-position: 51% 6px;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -218,7 +269,7 @@ p {
   padding-top: 0px;
   padding-bottom: 80px;
   background-color: #f5f6f7;
-  background-image: url(../images/mapbackground2.png);
+  background-image: url(../images/tokyobackground.png);
   background-position: -24% 28%;
   background-size: cover;
   background-attachment: fixed;
@@ -247,6 +298,7 @@ p {
   z-index: 8;
   display: block;
   overflow: hidden;
+  height: 71px;
   padding-top: 20px;
   padding-bottom: 20px;
   clear: none;
@@ -271,15 +323,17 @@ p {
   text-transform: uppercase;
 }
 .logo-in-header {
-  margin-top: -2px;
+  margin-top: 0px;
   margin-right: 9px;
   margin-bottom: 0px;
+  padding-top: 0px;
   padding-bottom: 0px;
+  padding-left: 0px;
   float: left;
 }
 .nav-link {
   margin-right: 8px;
-  margin-left: 8px;
+  margin-left: 25px;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -291,9 +345,14 @@ p {
   text-transform: uppercase;
 }
 .nav-link:hover {
-  color: #ed7a56;
+  color: #2ca2ca;
 }
 .nav-column {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   text-align: right;
 }
 .app-store-button {
@@ -374,7 +433,8 @@ p {
   border-left: 1px solid rgba(0, 0, 0, 0.09);
 }
 .subfooter-left {
-  padding-top: 6px;
+  margin-top: 4px;
+  padding-top: 0px;
 }
 .social-button {
   width: 36px;
@@ -789,6 +849,14 @@ p {
   text-decoration: none;
   text-shadow: #11607a 1px 1px 6px;
 }
+.top-left-text:hover {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top: 1px dashed #dae5f2;
+  border-bottom: 1px dashed #dae5f2;
+  color: white;
+  text-shadow: #11607a 1px 1px 6px;
+}
 .middle-left-text {
   margin-left: 66px;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -798,12 +866,28 @@ p {
   text-decoration: none;
   text-shadow: #11607a 1px 1px 6px;
 }
+.middle-left-text:hover {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top: 1px dashed #dae5f2;
+  border-bottom: 1px dashed #dae5f2;
+  text-shadow: #11607a 1px 1px 6px;
+}
 .bottom-left-text {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top: 1px none #dae5f2;
+  border-bottom: 1px none #dae5f2;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
+  text-shadow: #11607a 1px 1px 6px;
+}
+.bottom-left-text:hover {
+  border-top-style: dashed;
+  border-bottom-style: dashed;
   text-shadow: #11607a 1px 1px 6px;
 }
 .top-right-text {
@@ -813,6 +897,19 @@ p {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
+  text-shadow: #11607a 1px 1px 6px;
+}
+.top-right-text:hover {
+  width: auto;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 0px;
+  border-style: dashed none;
+  border-width: 1px;
+  border-color: #dae5f2 black;
+  color: white;
   text-shadow: #11607a 1px 1px 6px;
 }
 .top-section {
@@ -827,12 +924,28 @@ p {
   text-decoration: none;
   text-shadow: #11607a 1px 1px 6px;
 }
+.middle-right-text:hover {
+  margin-right: 70px;
+  padding-top: 2px;
+  padding-right: 0px;
+  padding-bottom: 2px;
+  border-top: 1px dashed #dae5f2;
+  border-bottom: 1px dashed #dae5f2;
+  text-shadow: #11607a 1px 1px 6px;
+}
 .bottom-right-text {
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
+  text-shadow: #11607a 1px 1px 6px;
+}
+.bottom-right-text:hover {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top: 1px dashed #dae5f2;
+  border-bottom: 1px dashed #dae5f2;
   text-shadow: #11607a 1px 1px 6px;
 }
 @media (max-width: 991px) {
@@ -867,8 +980,21 @@ p {
     transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
+  .button.top-button.data-button {
+    width: 100px;
+    margin-right: 277px;
+  }
+  .button.top-button.tracker-button {
+    margin-left: 17px;
+    background-color: #1483a8;
+  }
+  .button.top-button.analytics-button {
+    margin-left: 24px;
+  }
   .button.bottom-button {
-    background-image: none;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -887,7 +1013,18 @@ p {
   .button.database-button {
     width: 100px;
     margin-bottom: 0px;
+    background-color: #2ca2c9;
     background-image: none;
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
+  .button:hover.database-button:hover {
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -898,7 +1035,9 @@ p {
     width: 100px;
     margin-bottom: 0px;
     margin-left: 16px;
-    background-image: none;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -908,10 +1047,11 @@ p {
   .section.hero {
     width: auto;
     height: 452px;
+    margin-top: 37px;
     margin-bottom: 0px;
     padding-top: 34px;
     padding-bottom: 1px;
-    background-image: url(../images/mapbackground.png);
+    background-image: url(../images/newbackground.png);
     background-position: 0px 9%;
     background-size: cover;
     background-attachment: fixed;
@@ -923,13 +1063,16 @@ p {
   .section.grey {
     width: 778px;
     margin-left: 0px;
-    background-image: url(../images/mapbackground2.png);
+    background-image: url(../images/tokyobackground.png);
     background-position: 90% 52%;
     background-size: contain;
     background-attachment: fixed;
   }
   .section.purple {
     background-image: url(../images/background.jpg);
+  }
+  .section.header {
+    box-shadow: #bfbbbb 0px 0px 17px -1px;
   }
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
@@ -1075,6 +1218,16 @@ p {
     transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
+  .button.top-button {
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
   .button.database-button {
     margin-bottom: 0px;
     margin-left: 229px;
@@ -1106,11 +1259,9 @@ p {
   .section.hero {
     height: 335px;
     margin-top: 0px;
-    padding-top: 23px;
+    padding-top: 81px;
     padding-bottom: 48px;
-    background-image: url(../images/mapbackground.png);
-    background-position: 14% 0px;
-    background-attachment: fixed;
+    background-image: none;
     text-align: center;
   }
   .section.grey {
@@ -1120,6 +1271,9 @@ p {
   }
   .section.purple {
     background-image: url(../images/background.jpg);
+  }
+  .section.header {
+    box-shadow: #bfbbbb 0px 0px 17px -1px;
   }
   .hero-iphone {
     margin-bottom: 1px;
@@ -1137,8 +1291,8 @@ p {
     text-shadow: black 0px 0px 0px;
   }
   .nav-column {
+    margin-top: 0px;
     padding-top: 0px;
-    padding-bottom: 0px;
     text-align: center;
   }
   .hero-header {
@@ -1211,7 +1365,8 @@ p {
   }
   .header-par {
     margin-top: 2px;
-    margin-bottom: 0px;
+    margin-bottom: -33px;
+    text-shadow: #11607a 1px 1px 6px;
   }
   .special-text {
     margin-left: 28px;
