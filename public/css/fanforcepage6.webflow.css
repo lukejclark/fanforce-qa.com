@@ -85,9 +85,9 @@ p {
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button:hover {
-  background-image: -webkit-linear-gradient(#ff9d73, #d7624b);
-  background-image: -o-linear-gradient(#ff9d73, #d7624b);
-  background-image: linear-gradient(#ff9d73, #d7624b);
+  background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
+  background-image: -o-linear-gradient(#2ca2ca, #0a5770);
+  background-image: linear-gradient(#2ca2ca, #0a5770);
   box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -109,9 +109,9 @@ p {
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button:hover.app-store:hover {
-  background-image: -webkit-linear-gradient(#ffa882, #d7624b);
-  background-image: -o-linear-gradient(#ffa882, #d7624b);
-  background-image: linear-gradient(#ffa882, #d7624b);
+  background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
+  background-image: -o-linear-gradient(#2ca2ca, #0a5770);
+  background-image: linear-gradient(#2ca2ca, #0a5770);
   box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -190,7 +190,7 @@ p {
 }
 .nav-link {
   margin-right: 8px;
-  margin-left: 8px;
+  margin-left: 25px;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -202,7 +202,7 @@ p {
   text-transform: uppercase;
 }
 .nav-link:hover {
-  color: #ed7a56;
+  color: #2ca2ca;
 }
 .nav-column {
   text-align: right;
@@ -634,7 +634,8 @@ p {
     margin-top: 55px;
   }
   p {
-    margin-left: 1px;
+    margin-left: 0px;
+    padding-left: 0px;
     font-size: 14px;
     line-height: 21px;
   }
@@ -647,7 +648,6 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
-    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -666,9 +666,16 @@ p {
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
   }
+  .nav-link {
+    font-size: 12px;
+  }
   .hero-header {
-    margin-left: 1px;
+    margin-top: 66px;
+    margin-right: 0px;
+    margin-left: -1px;
     padding-top: 22px;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 38px;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
   }
@@ -732,7 +739,6 @@ p {
   }
   .button {
     margin-bottom: 50px;
-    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -742,7 +748,6 @@ p {
   .button.app-store {
     margin-top: 12px;
     margin-bottom: 0px;
-    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -864,6 +869,7 @@ p {
   }
   .header-fixed {
     position: static;
+    box-shadow: #bfbbbb 0px 0px 17px -1px;
   }
 }
 @media (max-width: 479px) {
@@ -875,8 +881,9 @@ p {
     line-height: 23px;
   }
   .button {
-    margin: 8px 9px 20px 0px;
-    background-image: none;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: 0px;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -884,7 +891,6 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
-    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
