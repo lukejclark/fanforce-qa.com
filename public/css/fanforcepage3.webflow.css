@@ -454,6 +454,7 @@ p {
   text-align: left;
 }
 .universalimages.segmentimage {
+  margin-top: 6px;
   margin-right: 31px;
   margin-left: 0px;
   padding-top: 27px;
@@ -461,7 +462,8 @@ p {
   padding-left: 0px;
 }
 .universalimages.data-image {
-  margin-top: 42px;
+  width: 450px;
+  margin-top: 14px;
   margin-left: 64px;
 }
 .body-paragraphs {
@@ -559,6 +561,13 @@ p {
   }
   .button {
     background-image: none;
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
+  .button.app-store {
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
