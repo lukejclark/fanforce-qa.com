@@ -116,9 +116,26 @@ p {
 .button.top-button.data-button {
   width: 100px;
   margin-right: 358px;
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+}
+.button.top-button.tracker-button {
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button.top-button.analytics-button {
   margin-left: 21px;
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button.sign-up {
   margin-right: 17px;
@@ -547,7 +564,9 @@ p {
   }
   .button.sign-up {
     margin-left: 236px;
-    background-image: none;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -574,7 +593,7 @@ p {
     background-image: url(../images/newbackground.png);
     background-position: 0px 9%;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
   .section.white {
     width: auto;
@@ -586,7 +605,7 @@ p {
     background-image: url(../images/tokyobackground.png);
     background-position: 90% 52%;
     background-size: contain;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
   .section.purple {
     background-image: url(../images/background.jpg);
@@ -708,6 +727,7 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.top-button {
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -718,17 +738,49 @@ p {
     margin-top: 20px;
     margin-right: 0px;
     margin-bottom: 0px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.top-button.tracker-button {
     margin-bottom: 0px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.top-button.analytics-button {
     margin-left: 232px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.sign-up {
     margin-top: 65px;
     margin-bottom: 0px;
     margin-left: 164px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
     padding-top: 14px;
@@ -874,6 +926,7 @@ p {
   .top-left-text {
     margin-top: 3px;
     margin-left: 46px;
+    text-shadow: #11607a 1px 1px 6px;
   }
   .middle-left-text {
     margin-top: 0px;
@@ -884,6 +937,7 @@ p {
     margin-left: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    text-shadow: #11607a 1px 1px 6px;
   }
   .top-section {
     height: 200px;
@@ -894,11 +948,13 @@ p {
     margin-right: 0px;
     padding-right: 40px;
     padding-left: 0px;
+    text-shadow: #11607a 1px 1px 6px;
   }
   .middle-right-text:hover {
     margin-right: 40px;
     margin-left: 0px;
     padding-right: 0px;
+    text-shadow: #11607a 1px 1px 6px;
   }
   .bottom-right-text {
     margin-right: -31px;
@@ -944,22 +1000,54 @@ p {
   .button.top-button.data-button {
     margin-top: 12px;
     margin-bottom: 39px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.top-button.tracker-button {
     width: 100px;
     margin-top: 23px;
     margin-bottom: 39px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.top-button.analytics-button {
     width: 100px;
     margin-top: 9px;
     margin-right: 0px;
     margin-left: 104px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.sign-up {
     width: 250px;
     margin-right: 0px;
     margin-left: 38px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
     text-align: center;
@@ -976,6 +1064,8 @@ p {
   .section.grey {
     margin-bottom: 0px;
     padding-bottom: 10px;
+    background-image: url(../images/tokyobackground.png);
+    background-position: 90% 52%;
   }
   .logo-in-header {
     margin: 0px 30px 0px 66px;
@@ -1035,17 +1125,34 @@ p {
   .header-par {
     margin-top: 0px;
     margin-bottom: 0px;
+    text-shadow: #11607a 1px 1px 6px;
   }
   .top-section-background {
     height: auto;
     margin-top: 54px;
     margin-bottom: 0px;
+    background-image: url(../images/computer.png);
+    background-position: 50% -20%;
+  }
+  .top-left-text {
+    text-shadow: #11607a 1px 1px 6px;
+  }
+  .middle-left-text {
+    text-shadow: #11607a 1px 1px 6px;
+  }
+  .bottom-left-text {
+    text-shadow: #11607a 1px 1px 6px;
   }
   .top-right-text {
     margin-right: 0px;
+    text-shadow: #11607a 1px 1px 6px;
+  }
+  .middle-right-text {
+    text-shadow: #11607a 1px 1px 6px;
   }
   .bottom-right-text {
     margin-right: 0px;
+    text-shadow: #11607a 1px 1px 6px;
   }
   .computer-row {
     margin-top: -18px;
