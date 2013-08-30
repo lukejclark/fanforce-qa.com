@@ -10,23 +10,23 @@ body {
   line-height: 20px;
 }
 h1 {
-  margin-right: 0px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  font-size: 38px;
-  line-height: 44px;
+  margin: 97px 0px 10px;
+  color: #faf7f7;
+  font-size: 70px;
+  line-height: 77px;
   font-weight: 700;
+  text-align: center;
 }
 h2 {
-  margin: 49px 0px 10px;
+  margin: 66px 0px 105px;
   padding-top: 32px;
-  padding-left: 19px;
+  padding-left: 0px;
   font-family: Montserrat, sans-serif;
-  color: #104152;
-  font-size: 24px;
+  color: #2ca2ca;
+  font-size: 25px;
   line-height: 36px;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
 }
 h3 {
   margin: 10px 0px 23px;
@@ -55,14 +55,18 @@ h6 {
   font-weight: 700;
 }
 p {
-  margin-bottom: 5px;
-  padding-top: 16px;
-  padding-left: 74px;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 1px;
+  margin-left: auto;
+  padding-top: 19px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fcfafa;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 25px;
-  text-align: left;
+  text-align: center;
 }
 .button {
   display: inline-block;
@@ -94,8 +98,8 @@ p {
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button.app-store {
-  width: 240px;
-  margin-top: 10px;
+  width: 140px;
+  margin-top: 0px;
   padding: 9px 0px 7px;
   background-image: -webkit-linear-gradient(#2ca2ca, #2ca2ca);
   background-image: -o-linear-gradient(#2ca2ca, #2ca2ca);
@@ -124,9 +128,8 @@ p {
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 .section.hero {
-  margin-top: 25px;
   padding-top: 0px;
-  padding-bottom: 77px;
+  padding-bottom: 88px;
   background-image: url(../images/background.jpg);
   background-size: cover;
 }
@@ -152,7 +155,7 @@ p {
   text-align: center;
 }
 .section.purple {
-  margin-top: 100px;
+  margin-top: 0px;
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: #016282;
@@ -188,10 +191,9 @@ p {
   float: left;
 }
 .nav-link {
-  margin-top: 0px;
   margin-right: 25px;
   margin-left: 25px;
-  padding-top: 0px;
+  padding-right: 0px;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -227,7 +229,7 @@ p {
   margin-left: 35px;
   padding-top: 73px;
   padding-right: 0px;
-  padding-left: 32px;
+  padding-left: 47px;
   font-family: Montserrat, sans-serif;
   color: white;
   font-size: 42px;
@@ -449,7 +451,7 @@ p {
 }
 .nextup {
   margin-bottom: -25px;
-  padding-top: 30px;
+  padding-top: 51px;
   padding-bottom: 0px;
   color: #6e6d6d;
   font-size: 18px;
@@ -548,7 +550,7 @@ p {
 }
 .hero-paragraph {
   padding-top: 23px;
-  padding-left: 71px;
+  padding-left: 85px;
   line-height: 24px;
   font-weight: 400;
 }
@@ -593,8 +595,55 @@ p {
 .social-image {
   margin-left: 353px;
 }
+.pricing-image {
+  display: block;
+  margin-top: 74px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 13px;
+  padding-left: 0px;
+}
+.price-image {
+  display: block;
+  margin: 18px auto 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.background {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.left-text {
+  margin-top: 25px;
+  padding-right: 0px;
+  padding-left: 66px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #2ca2ca;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+.right-text {
+  padding-top: 25px;
+  padding-right: 66px;
+  padding-left: 0px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #2ca2ca;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+.top-text {
+  padding-top: 35px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #2ca2ca;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+}
 .header-box {
-  height: 100px;
+  height: 71px;
 }
 .header-fixed {
   position: fixed;
@@ -605,18 +654,115 @@ p {
   background-color: white;
   box-shadow: #bfbbbb 0px 0px 17px -1px;
 }
-.sub-nav {
-  background-color: white;
+.left-column-text {
+  margin-top: 81px;
+  margin-bottom: 1px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fcfafa;
+  font-size: 18px;
+  font-weight: 500;
 }
-.sub-naav-row {
+.left-column-text.support {
+  margin-top: 23px;
+}
+.address {
+  margin-top: -19px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 13px;
+}
+.address.support {
+  margin-top: 11px;
+}
+.lets-talk-descrition-text {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-left: 110px;
+  color: white;
+  text-align: left;
+}
+.map {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.info-text {
+  color: #2ca2ca;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.info-text.actual-address {
+  margin-top: 14px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+.email-text {
+  color: #2ca2ca;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.phone {
+  color: #2ca2ca;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.info {
+  margin-top: 28px;
+  margin-bottom: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #d9d7d7;
+}
+.row {
+  margin-top: 0px;
+}
+.lets-talk {
+  margin-top: 23px;
+  margin-bottom: 18px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+.ha {
+  color: #b3b4b5;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+}
+.email {
+  margin-top: 28px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border: 1px solid #d9d7d7;
+}
+.phone-te {
+  margin-top: 28px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border: 1px solid #d9d7d7;
+}
+.email-link {
+  display: block;
+  margin-top: 14px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #2ca2ca;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none;
 }
 @media (max-width: 991px) {
   h2 {
     margin-top: 23px;
   }
   p {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 14px;
     line-height: 21px;
   }
@@ -636,83 +782,7 @@ p {
     transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
-  .section.hero {
-    margin-top: 65px;
-    padding-bottom: 0px;
-    background-image: url(../images/background.jpg);
-  }
-  .hero-iphone {
-    text-shadow: black 0px 0px 0px;
-  }
-  .nav-link {
-    font-size: 12px;
-  }
-  .hero-header {
-    margin-top: 100px;
-    margin-left: 3px;
-    padding-top: 0px;
-    padding-left: 1px;
-    font-size: 38px;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
-  }
-  .hero-subtitle {
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
-  }
-  .big-image {
-    text-shadow: black 0px 0px 0px;
-  }
-  .universalimages {
-    margin-left: 1px;
-  }
-  .hero-image {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 116px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-  }
-  .hero-paragraph {
-    margin-left: 7px;
-    padding-left: 1px;
-  }
-  .segmentheader {
-    margin-top: 0px;
-    padding-top: 20px;
-  }
-  .header-image {
-    margin-bottom: 0px;
-    margin-left: 26px;
-    padding-top: 35px;
-    padding-bottom: 159px;
-  }
-  .truefan-image {
-    width: 300px;
-    margin-left: 0px;
-    padding-left: 22px;
-  }
-  .social-image {
-    margin-left: 233px;
-  }
-}
-@media (max-width: 767px) {
-  h2 {
-    margin-top: 0px;
-    padding-top: 0px;
-    text-align: center;
-  }
-  .button {
-    margin-bottom: 50px;
-    background-image: none;
-    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
-    -webkit-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease;
-    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
-  }
-  .button.app-store {
-    margin-top: 12px;
-    margin-bottom: 0px;
+  .button:hover.app-store:hover {
     background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
     background-image: -o-linear-gradient(#ff8d5e, #d7624b);
     background-image: linear-gradient(#ff8d5e, #d7624b);
@@ -722,12 +792,110 @@ p {
     transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
+  .section.hero {
+    padding-bottom: 45px;
+    background-image: url(../images/background.jpg);
+    background-size: auto 900px;
+  }
+  .section.purple {
+    background-image: url(../images/background.jpg);
+  }
+  .hero-iphone {
+    text-shadow: black 0px 0px 0px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .hero-header {
+    margin-top: 59px;
+    padding-top: 0px;
+    font-size: 38px;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+  }
+  .hero-subtitle {
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+  }
+  .big-image {
+    text-shadow: black 0px 0px 0px;
+  }
+  .nextup {
+    margin-top: 68px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+  .universalimages {
+    margin-left: 1px;
+  }
+  .hero-image {
+    margin: 0px 0px 38px 21px;
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .segmentheader {
+    margin-top: 0px;
+  }
+  .header-image {
+    margin-bottom: 0px;
+    margin-left: 26px;
+    padding-top: 35px;
+    padding-bottom: 159px;
+  }
+  .truefan-image {
+    margin-left: 0px;
+    padding-left: 22px;
+  }
+  .social-image {
+    margin-left: 247px;
+  }
+  .pricing-image {
+    margin-top: 52px;
+    padding-bottom: 7px;
+  }
+  .price-image {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 0px;
+  }
+  h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+  }
+  p {
+    margin-left: 4px;
+    padding-top: 1px;
+    padding-left: 1px;
+    text-align: center;
+  }
+  .button {
+    margin-bottom: 15px;
+    background-image: none;
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
+  .button.app-store {
+    margin-bottom: 0px;
+    background-image: none;
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
   .section {
-    padding-top: 33px;
+    padding-top: 9px;
     padding-bottom: 0px;
     text-align: center;
   }
   .section.hero {
+    padding-top: 0px;
     background-image: url(../images/background.jpg);
     text-align: center;
   }
@@ -740,20 +908,17 @@ p {
   }
   .logo-in-header {
     display: block;
-    margin-right: auto;
-    margin-bottom: 12px;
-    margin-left: auto;
+    margin: 0px auto 12px;
     float: none;
     text-shadow: black 0px 0px 0px;
   }
   .nav-column {
-    padding-top: 15px;
-    padding-bottom: 0px;
+    padding-top: 0px;
     text-align: center;
   }
   .hero-header {
-    margin-top: 0px;
-    margin-bottom: 91px;
+    margin-top: -90px;
+    margin-bottom: 44px;
     padding-top: 0px;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
@@ -779,22 +944,14 @@ p {
   .body-paragraphs {
     text-align: center;
   }
-  .body-paragraphs.segmentbody {
-    padding-left: 1px;
-  }
-  .body-paragraphs.tf {
-    padding-left: 1px;
-  }
   .footer-box {
     box-shadow: none;
   }
   .hero-image {
     width: 400px;
-    margin-bottom: 21px;
   }
   .segmentheader {
     padding-top: 31px;
-    padding-left: 1px;
   }
   .header-image {
     width: 550px;
@@ -802,33 +959,17 @@ p {
     margin-left: 1px;
     padding-bottom: 126px;
   }
-  .truefan-image {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0px;
-  }
-  ._5levelsheader {
-    padding-top: 1px;
-    padding-left: 1px;
-  }
   .social-image {
-    margin-top: 32px;
-    margin-left: 1px;
+    margin-top: 22px;
+    margin-left: 0px;
   }
-  .top-container {
-    margin-top: 0px;
-    padding-top: 0px;
+  .pricing-image {
+    width: 300px;
+    margin-left: auto;
   }
-  .header-box {
-    height: 220px;
-  }
-  .header-fixed {
-    position: static;
-    box-shadow: #bfbbbb 0px 0px 17px -1px;
-  }
-  .sub-nav {
-    margin-top: 20px;
+  .price-image {
+    width: 400px;
+    margin-left: auto;
   }
 }
 @media (max-width: 479px) {
@@ -837,9 +978,8 @@ p {
     line-height: 23px;
   }
   .button {
-    margin-top: 16px;
-    margin-right: 7px;
-    margin-bottom: 29px;
+    margin-top: 0px;
+    margin-left: 22px;
     background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
@@ -848,6 +988,9 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
@@ -859,16 +1002,16 @@ p {
     text-align: center;
   }
   .section.hero {
+    padding-top: 0px;
     background-image: url(../images/background.jpg);
   }
   .section.white {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .section.grey {
-    margin-bottom: 1px;
-    padding-top: 59px;
-    padding-bottom: 65px;
+  .section.purple {
+    margin-top: 25px;
+    background-image: url(../images/background.jpg);
   }
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
@@ -877,16 +1020,14 @@ p {
     text-shadow: black 0px 0px 0px;
   }
   .nav-link {
-    margin-right: 0px;
-    margin-left: 14px;
+    margin-right: 1px;
   }
   .nav-column {
-    padding-left: 1px;
+    padding-top: 9px;
+    padding-right: 39px;
+    padding-left: 0px;
   }
   .hero-header {
-    margin-top: -88px;
-    margin-bottom: 85px;
-    padding-top: 1px;
     font-size: 32px;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
   }
@@ -896,37 +1037,17 @@ p {
   .price-text {
     font-size: 23px;
   }
-  .universalimages.segmentimage {
-    width: 200px;
+  .subfooter-left {
+    padding-top: 4px;
   }
-  .body-paragraphs.segmentbody {
-    padding-left: 1px;
-  }
-  .body-paragraphs.tf {
-    padding-left: 1px;
-  }
-  .hero-image {
+  .price-image {
     width: 250px;
-    margin-bottom: 94px;
   }
-  .segmentheader {
-    padding-left: 1px;
+  .nav-row {
+    padding-right: 0px;
   }
-  .truefan-image {
-    width: 200px;
-    padding-bottom: 49px;
-    padding-left: 0px;
-  }
-  ._5levelsheader {
-    padding-left: 1px;
-  }
-  .header-box {
-    height: 230px;
-  }
-  .header-fixed {
-    box-shadow: #bfbbbb 0px 0px 17px -1px;
-  }
-  .sub-naav-row {
-    margin-top: -21px;
+  .mid-containe {
+    margin-top: -1px;
+    margin-bottom: 0px;
   }
 }

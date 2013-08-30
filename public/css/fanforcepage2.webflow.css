@@ -69,6 +69,7 @@ p {
 }
 .button {
   display: inline-block;
+  margin-top: 4px;
   margin-right: 0px;
   padding: 5px 9px;
   border-radius: 5px;
@@ -190,7 +191,8 @@ p {
   float: left;
 }
 .nav-link {
-  margin-right: 8px;
+  margin-top: 0px;
+  margin-right: 25px;
   margin-left: 25px;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -203,7 +205,7 @@ p {
   text-transform: uppercase;
 }
 .nav-link:hover {
-  color: #ed7a56;
+  color: #2ca2ca;
 }
 .nav-column {
   text-align: right;
@@ -754,6 +756,7 @@ p {
   }
   .button {
     margin-bottom: 50px;
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -763,6 +766,7 @@ p {
   .button.app-store {
     margin-top: 12px;
     margin-bottom: 0px;
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -881,6 +885,9 @@ p {
   .top-paragrah {
     margin-top: -25px;
   }
+  .next-up-link {
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
   .header-box {
     height: 230px;
   }
@@ -908,6 +915,7 @@ p {
   }
   .button {
     margin: 18px 18px 20px 10px;
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -915,6 +923,7 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;

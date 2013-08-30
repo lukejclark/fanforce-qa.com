@@ -95,7 +95,7 @@ p {
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button.top-button {
-  margin-top: 0px;
+  margin-top: 4px;
   margin-right: 0px;
   box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
   -webkit-transition: all 200ms ease;
@@ -229,7 +229,7 @@ p {
   float: left;
 }
 .nav-link {
-  margin-right: 8px;
+  margin-right: 25px;
   margin-left: 25px;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;

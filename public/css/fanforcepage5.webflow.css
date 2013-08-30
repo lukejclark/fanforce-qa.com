@@ -67,6 +67,7 @@ p {
 }
 .button {
   display: inline-block;
+  margin-top: 4px;
   margin-right: 0px;
   padding: 5px 9px;
   border-radius: 5px;
@@ -98,6 +99,7 @@ p {
   margin-top: 10px;
   margin-left: 0px;
   padding: 9px 0px 7px;
+  background-image: none;
   box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -186,7 +188,7 @@ p {
   float: left;
 }
 .nav-link {
-  margin-right: 8px;
+  margin-right: 25px;
   margin-left: 25px;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -588,6 +590,14 @@ p {
     line-height: 21px;
   }
   .button {
+    background-image: none;
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
+  .button.app-store {
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -661,6 +671,7 @@ p {
   }
   .button {
     margin-bottom: 50px;
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -670,6 +681,7 @@ p {
   .button.app-store {
     margin-top: 12px;
     margin-bottom: 0px;
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -800,6 +812,7 @@ p {
     margin-top: 21px;
     margin-right: 13px;
     margin-bottom: 33px;
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -807,6 +820,7 @@ p {
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;

@@ -66,7 +66,9 @@ p {
 }
 .button {
   display: inline-block;
+  margin-top: 4px;
   margin-right: 0px;
+  margin-bottom: 0px;
   padding: 5px 9px;
   border-radius: 5px;
   background-color: #2ca2ca;
@@ -191,7 +193,7 @@ p {
   float: left;
 }
 .nav-link {
-  margin-right: 8px;
+  margin-right: 25px;
   margin-left: 25px;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
