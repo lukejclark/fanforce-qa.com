@@ -207,6 +207,9 @@ p {
 .nav-link:hover {
   color: #2ca2ca;
 }
+.nav-link.contact-nav {
+  color: #2ca2ca;
+}
 .nav-column {
   text-align: right;
 }
@@ -681,10 +684,11 @@ p {
   text-align: left;
 }
 .map {
-  margin-top: 1px;
-  margin-bottom: 0px;
+  display: block;
+  margin: 1px auto 0px;
   padding-top: 0px;
   padding-bottom: 0px;
+  float: none;
 }
 .info-text {
   color: #2ca2ca;
@@ -695,6 +699,7 @@ p {
 .info-text.actual-address {
   margin-top: 14px;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #818182;
   line-height: 22px;
   font-weight: 100;
 }
@@ -715,7 +720,9 @@ p {
   margin-bottom: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid #d9d7d7;
+  border-style: solid solid solid none;
+  border-width: 1px;
+  border-color: #d9d7d7;
 }
 .row {
   margin-top: 0px;
@@ -743,7 +750,9 @@ p {
   margin-top: 28px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid #d9d7d7;
+  border-style: solid none solid solid;
+  border-width: 1px;
+  border-color: #d9d7d7;
 }
 .email-link {
   display: block;
@@ -756,6 +765,15 @@ p {
   font-weight: 100;
   text-align: center;
   text-decoration: none;
+}
+.instagram {
+  padding-left: 20px;
+}
+.facebook {
+  padding-left: 20px;
+}
+.social {
+  padding-left: 300px;
 }
 @media (max-width: 991px) {
   h2 {
@@ -856,6 +874,14 @@ p {
   }
   .price-image {
     padding-bottom: 30px;
+  }
+  .map {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .social {
+    padding-left: 200px;
   }
 }
 @media (max-width: 767px) {
@@ -980,6 +1006,10 @@ p {
   }
   .phone-te {
     margin-bottom: 30px;
+  }
+  .social {
+    margin-top: 20px;
+    padding-left: 0px;
   }
 }
 @media (max-width: 479px) {
