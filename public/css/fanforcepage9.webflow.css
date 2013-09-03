@@ -695,6 +695,7 @@ p {
 .info-text.actual-address {
   margin-top: 14px;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 22px;
   font-weight: 100;
 }
 .email-text {
@@ -734,13 +735,13 @@ p {
 .email {
   margin-top: 28px;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 34px;
   border: 1px solid #d9d7d7;
 }
 .phone-te {
   margin-top: 28px;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   border: 1px solid #d9d7d7;
 }
 .email-link {
@@ -861,7 +862,8 @@ p {
     padding-bottom: 0px;
   }
   h2 {
-    margin-top: 0px;
+    margin-top: 87px;
+    margin-bottom: 101px;
     padding-top: 0px;
     text-align: center;
   }
@@ -971,8 +973,18 @@ p {
     width: 400px;
     margin-left: auto;
   }
+  .info {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .phone-te {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 479px) {
+  h2 {
+    margin-top: 121px;
+  }
   h3 {
     font-size: 18px;
     line-height: 23px;
@@ -1010,7 +1022,6 @@ p {
     padding-bottom: 0px;
   }
   .section.purple {
-    margin-top: 25px;
     background-image: url(../images/background.jpg);
   }
   .hero-iphone {
@@ -1049,5 +1060,8 @@ p {
   .mid-containe {
     margin-top: -1px;
     margin-bottom: 0px;
+  }
+  .map {
+    margin-bottom: 1px;
   }
 }
