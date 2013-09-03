@@ -503,6 +503,21 @@ p {
   border-bottom: 1px dashed #dae5f2;
   text-shadow: #11607a 1px 1px 6px;
 }
+.twitter {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.instagram {
+  padding-left: 20px;
+  float: none;
+  text-align: left;
+}
+.facebook {
+  padding-left: 20px;
+}
+.social {
+  padding-left: 299px;
+}
 @media (max-width: 991px) {
   body {
     width: auto;
@@ -702,6 +717,9 @@ p {
   .bottom-right-text {
     font-size: 13px;
   }
+  .social {
+    padding-left: 197px;
+  }
 }
 @media (max-width: 767px) {
   body {
@@ -738,9 +756,7 @@ p {
     margin-top: 20px;
     margin-right: 0px;
     margin-bottom: 0px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -974,6 +990,10 @@ p {
   .top-row {
     width: 569px;
   }
+  .social {
+    margin-top: 24px;
+    padding-left: 0px;
+  }
 }
 @media (max-width: 479px) {
   h2 {
@@ -997,12 +1017,18 @@ p {
     transition: all 200ms ease;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
+  .button.top-button {
+    background-image: none;
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  }
   .button.top-button.data-button {
     margin-top: 12px;
     margin-bottom: 39px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -1053,7 +1079,7 @@ p {
     text-align: center;
   }
   .section.hero {
-    margin-top: 98px;
+    margin-top: 99px;
     padding-bottom: 0px;
     background-image: url(../images/newbackground.png);
   }
@@ -1066,6 +1092,11 @@ p {
     padding-bottom: 10px;
     background-image: url(../images/tokyobackground.png);
     background-position: 90% 52%;
+  }
+  .section.header {
+    height: 140px;
+    padding-top: 7px;
+    box-shadow: #bfbbbb 0px 0px 17px -1px;
   }
   .logo-in-header {
     margin: 0px 30px 0px 66px;
@@ -1080,10 +1111,8 @@ p {
   }
   .nav-column {
     display: block;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    padding-right: 137px;
+    margin: 0px auto;
+    padding-right: 241px;
     padding-bottom: 0px;
     padding-left: 0px;
   }
@@ -1092,6 +1121,9 @@ p {
     font-size: 24px;
     line-height: 35px;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+  }
+  .subfooter-left {
+    padding-right: 265px;
   }
   .universalimages {
     width: 250px;
@@ -1112,6 +1144,7 @@ p {
   }
   .hawaii {
     width: 200px;
+    margin-top: 45px;
   }
   .hawaii-headline {
     margin-left: 1px;
@@ -1154,7 +1187,13 @@ p {
     margin-right: 0px;
     text-shadow: #11607a 1px 1px 6px;
   }
+  .top-row {
+    margin-top: 3px;
+  }
+  .is-this-it {
+    margin-top: 0px;
+  }
   .computer-row {
-    margin-top: -18px;
+    margin-top: 0px;
   }
 }

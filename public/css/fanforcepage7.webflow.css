@@ -207,6 +207,9 @@ p {
 .nav-link:hover {
   color: #2ca2ca;
 }
+.nav-link.pricing {
+  color: #2ca2ca;
+}
 .nav-column {
   text-align: right;
 }
@@ -654,6 +657,17 @@ p {
   background-color: white;
   box-shadow: #bfbbbb 0px 0px 17px -1px;
 }
+.instagram {
+  margin-left: 0px;
+  padding-left: 20px;
+}
+.facebook {
+  margin-left: 0px;
+  padding-left: 20px;
+}
+.social {
+  padding-left: 300px;
+}
 @media (max-width: 991px) {
   h2 {
     margin-top: 23px;
@@ -753,6 +767,9 @@ p {
   }
   .price-image {
     padding-bottom: 30px;
+  }
+  .social {
+    padding-left: 220px;
   }
 }
 @media (max-width: 767px) {
@@ -870,6 +887,10 @@ p {
     width: 400px;
     margin-left: auto;
   }
+  .social {
+    margin-top: 20px;
+    padding-left: 0px;
+  }
 }
 @media (max-width: 479px) {
   h3 {
@@ -877,8 +898,8 @@ p {
     line-height: 23px;
   }
   .button {
-    margin-top: 0px;
-    margin-left: 22px;
+    margin-top: 12px;
+    margin-left: 9px;
     background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
@@ -923,7 +944,7 @@ p {
   }
   .nav-column {
     padding-top: 9px;
-    padding-right: 39px;
+    padding-right: 11px;
     padding-left: 0px;
   }
   .hero-header {
@@ -946,7 +967,7 @@ p {
     padding-right: 0px;
   }
   .mid-containe {
-    margin-top: -1px;
+    margin-top: 39px;
     margin-bottom: 0px;
   }
 }

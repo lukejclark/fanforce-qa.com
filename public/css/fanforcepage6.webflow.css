@@ -153,9 +153,10 @@ p {
   text-align: center;
 }
 .section.purple {
+  height: 80px;
   margin-top: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   background-color: #016282;
   background-image: url(../images/background.jpg);
 }
@@ -202,6 +203,9 @@ p {
   text-transform: uppercase;
 }
 .nav-link:hover {
+  color: #2ca2ca;
+}
+.nav-link.feature-nav {
   color: #2ca2ca;
 }
 .nav-column {
@@ -608,8 +612,9 @@ p {
   padding-left: 0px;
 }
 .footer-logo {
+  margin-top: 0px;
   margin-bottom: 4px;
-  padding-top: 24px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 .header-box {
@@ -628,6 +633,16 @@ p {
 .sub-nav-row {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.social {
+  margin-top: 0px;
+  padding-left: 300px;
+}
+.instagram {
+  padding-left: 20px;
+}
+.facebook {
+  padding-left: 20px;
 }
 @media (max-width: 991px) {
   h2 {
@@ -731,6 +746,9 @@ p {
   .social-images {
     margin-left: 240px;
   }
+  .social {
+    padding-left: 219px;
+  }
 }
 @media (max-width: 767px) {
   h2 {
@@ -773,6 +791,9 @@ p {
   }
   .section.grey {
     padding-top: 60px;
+  }
+  .section.purple {
+    height: 120px;
   }
   .hero-iphone {
     margin-bottom: 1px;
@@ -873,6 +894,10 @@ p {
   .header-fixed {
     position: static;
     box-shadow: #bfbbbb 0px 0px 17px -1px;
+  }
+  .social {
+    margin-top: 20px;
+    padding-left: 0px;
   }
 }
 @media (max-width: 479px) {

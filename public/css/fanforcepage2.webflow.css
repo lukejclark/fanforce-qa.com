@@ -207,6 +207,9 @@ p {
 .nav-link:hover {
   color: #2ca2ca;
 }
+.nav-link.feature-nav {
+  color: #2ca2ca;
+}
 .nav-column {
   text-align: right;
 }
@@ -637,6 +640,16 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.instagram {
+  padding-left: 20px;
+}
+.facebook {
+  padding-left: 20px;
+}
+.social {
+  padding-right: 0px;
+  padding-left: 300px;
+}
 @media (max-width: 991px) {
   h2 {
     margin-top: 23px;
@@ -743,6 +756,9 @@ p {
   }
   .dashboard-image {
     width: 200px;
+  }
+  .social {
+    padding-left: 220px;
   }
 }
 @media (max-width: 767px) {
@@ -897,6 +913,10 @@ p {
   }
   .sub-nav {
     margin-top: 0px;
+  }
+  .social {
+    margin-top: 20px;
+    padding-left: 0px;
   }
 }
 @media (max-width: 479px) {

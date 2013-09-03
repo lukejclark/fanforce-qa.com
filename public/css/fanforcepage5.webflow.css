@@ -203,6 +203,9 @@ p {
 .nav-link:hover {
   color: #2ca2ca;
 }
+.nav-link.feature-nav {
+  color: #2ca2ca;
+}
 .nav-column {
   text-align: right;
 }
@@ -584,6 +587,15 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.instagram {
+  padding-left: 20px;
+}
+.facebook {
+  padding-left: 20px;
+}
+.social {
+  padding-left: 300px;
+}
 @media (max-width: 991px) {
   p {
     font-size: 14px;
@@ -661,6 +673,9 @@ p {
   }
   .unlimited-header {
     margin-top: 57px;
+  }
+  .social {
+    padding-left: 220px;
   }
 }
 @media (max-width: 767px) {
@@ -802,6 +817,10 @@ p {
   .some-section--who-know {
     border: 1px none black;
   }
+  .social {
+    margin-top: 20px;
+    padding-left: 0px;
+  }
 }
 @media (max-width: 479px) {
   h3 {
@@ -892,7 +911,7 @@ p {
     text-align: center;
   }
   .heartimage {
-    margin-left: 35px;
+    margin-left: 30px;
   }
   .spinimage {
     width: 200px;

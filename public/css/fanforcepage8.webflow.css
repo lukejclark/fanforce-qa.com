@@ -76,8 +76,10 @@ p {
   padding: 5px 9px;
   border-radius: 5px;
   background-color: #2ca2ca;
-  background-image: none;
-  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  background-image: -webkit-linear-gradient(#2ca2ca, #2ca2ca);
+  background-image: -o-linear-gradient(#2ca2ca, #2ca2ca);
+  background-image: linear-gradient(#2ca2ca, #2ca2ca);
+  box-shadow: none;
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -86,7 +88,7 @@ p {
   font-size: 14px;
   text-align: center;
   text-decoration: none;
-  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  text-shadow: none;
 }
 .button:hover {
   background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
@@ -659,6 +661,15 @@ p {
   background-color: white;
   box-shadow: #bfbbbb 0px 0px 17px -1px;
 }
+.instagram {
+  padding-left: 20px;
+}
+.facebook {
+  padding-left: 20px;
+}
+.social {
+  padding-left: 300px;
+}
 @media (max-width: 991px) {
   h2 {
     margin-top: 23px;
@@ -670,9 +681,7 @@ p {
     line-height: 21px;
   }
   .button {
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -752,6 +761,9 @@ p {
     margin-left: 112px;
     padding-bottom: 30px;
   }
+  .social {
+    padding-left: 220px;
+  }
 }
 @media (max-width: 767px) {
   h2 {
@@ -767,9 +779,7 @@ p {
   }
   .button {
     margin-bottom: 50px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -818,13 +828,14 @@ p {
     margin-bottom: 0px;
   }
   .nav-column {
+    margin-top: 4px;
     margin-bottom: 0px;
     padding-top: 5px;
-    padding-bottom: 29px;
+    padding-bottom: 0px;
     text-align: center;
   }
   .hero-header {
-    margin-top: 25px;
+    margin-top: 67px;
     margin-bottom: 12px;
     padding-top: 0px;
     text-align: center;
@@ -877,6 +888,10 @@ p {
   .sign-up-box {
     width: 300px;
   }
+  .social {
+    margin-top: 20px;
+    padding-left: 1px;
+  }
 }
 @media (max-width: 479px) {
   h3 {
@@ -884,9 +899,7 @@ p {
     line-height: 23px;
   }
   .button {
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
