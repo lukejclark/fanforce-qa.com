@@ -727,9 +727,10 @@ p {
   font-size: 40px;
 }
 .ha {
-  color: #b3b4b5;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #818182;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
 }
 .email {
