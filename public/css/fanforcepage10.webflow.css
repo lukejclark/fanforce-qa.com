@@ -4,6 +4,7 @@ body {
   padding-top: 0px;
   padding-bottom: 1px;
   border: 3px none black;
+  opacity: 1;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
   font-size: 12px;
@@ -184,12 +185,16 @@ p {
   padding-bottom: 140px;
   border-top: 1px solid white;
   box-shadow: none;
+  opacity: 1;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
 }
 .section.grey {
   margin-top: 0px;
   margin-bottom: 34px;
   padding-top: 0px;
-  padding-bottom: 80px;
+  padding-bottom: 125px;
   background-color: #f5f6f7;
   background-image: url(../images/tokyobackground.png);
   background-position: -24% 28%;
@@ -1130,6 +1135,9 @@ p {
   }
   .footer-logo {
     margin-left: 1px;
+  }
+  .tracking-section {
+    margin-top: 53px;
   }
   .hawaii {
     width: 200px;
