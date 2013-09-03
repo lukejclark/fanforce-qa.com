@@ -579,9 +579,7 @@ p {
   }
   .button.sign-up {
     margin-left: 236px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -765,9 +763,7 @@ p {
   }
   .button.top-button.tracker-button {
     margin-bottom: 0px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -776,9 +772,7 @@ p {
   }
   .button.top-button.analytics-button {
     margin-left: 232px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -789,9 +783,7 @@ p {
     margin-top: 65px;
     margin-bottom: 0px;
     margin-left: 164px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -1039,9 +1031,7 @@ p {
     width: 100px;
     margin-top: 23px;
     margin-bottom: 39px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -1053,9 +1043,7 @@ p {
     margin-top: 9px;
     margin-right: 0px;
     margin-left: 104px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -1066,9 +1054,7 @@ p {
     width: 250px;
     margin-right: 0px;
     margin-left: 38px;
-    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
-    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
-    background-image: linear-gradient(#ff8d5e, #d7624b);
+    background-image: none;
     box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -1133,7 +1119,10 @@ p {
     padding-bottom: 44px;
   }
   .hero-image {
+    display: block;
     width: 200px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .social-image {
     margin-left: 1px;
