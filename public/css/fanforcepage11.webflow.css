@@ -686,7 +686,7 @@ p {
 }
 .thank-you {
   height: 513px;
-  margin-top: 32px;
+  margin-top: 0px;
   background-image: url(../images/background.jpg);
 }
 .love {
