@@ -138,7 +138,7 @@ var _w = (function(){
       return end;
     }
 
-    return start + (end - start) * _ease(elapsed / duration); 
+    return start + (end - start) * _ease(elapsed / duration);
   }
 
   function _scroll(hash, e) {
