@@ -1,11 +1,12 @@
-use Rack::Static,
-    :urls => ["/images", "/js", "/css", "/assets"],
-    :root => "public"
 
-headers = {'Content-Type' => 'text/html', 'Content-Length' => '9'}
-run lambda { |env| [404, headers, ['Not Found']] }
+app = Rack::Builder.new do
 
-map "/" do
+
+    use Rack::Static,
+      :urls => ["/images", "/js", "/css", "/assets"],
+      :root => "public"
+
+    map "/" do
   run lambda { |env|
   [
     200, 
@@ -160,4 +161,8 @@ map "/video" do
   ]
 }
 end
+
+end.to_app
+
+run app
 
