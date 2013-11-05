@@ -2,6 +2,9 @@ use Rack::Static,
     :urls => ["/images", "/js", "/css", "/assets"],
     :root => "public"
 
+headers = {'Content-Type' => 'text/html', 'Content-Length' => '9'}
+run lambda { |env| [404, headers, ['Not Found']] }
+
 map "/" do
   run lambda { |env|
   [
