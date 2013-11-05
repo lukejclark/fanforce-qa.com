@@ -19,6 +19,8 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (1.1.0)
+    vienna (0.4.0)
+      rack (~> 1.5)
 
 PLATFORMS
   ruby
@@ -26,3 +28,4 @@ PLATFORMS
 DEPENDENCIES
   heroku
   rack
+  vienna
