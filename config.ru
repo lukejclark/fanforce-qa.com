@@ -1,12 +1,8 @@
+use Rack::Static,
+    :urls => ["/images", "/js", "/css", "/assets"],
+    :root => "public"
 
-app = Rack::Builder.new do
-
-
-    use Rack::Static,
-      :urls => ["/images", "/js", "/css", "/assets"],
-      :root => "public"
-
-    map "/" do
+map "/" do
   run lambda { |env|
   [
     200, 
@@ -161,8 +157,4 @@ map "/video" do
   ]
 }
 end
-
-end.to_app
-
-run app
 
