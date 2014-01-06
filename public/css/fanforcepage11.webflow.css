@@ -689,8 +689,7 @@ p {
   margin-top: 0px;
   background-image: url(../images/background.jpg);
 }
-.vimeo-video { padding-top:20px; }
-.vimeo-video iframe { width:100%; height:545px; }
+.vimeo-video iframe { margin-top:20px; width:100%; height:545px; }
 .love {
   display: block;
   margin-right: auto;
@@ -1008,5 +1007,5 @@ p {
   .sign-up-box {
     width: 250px;
   }
-  .vimeo-video iframe { width:100%; height:200px; }
+  .vimeo-video iframe { width:100%; height:200px; margin-top:20px; }
 }
