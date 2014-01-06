@@ -685,10 +685,11 @@ p {
   font-weight: 400;
 }
 .thank-you {
-  height: 513px;
+  height: 700px;
   margin-top: 0px;
   background-image: url(../images/background.jpg);
 }
+.vimeo-video { padding-top:20px; }
 .love {
   display: block;
   margin-right: auto;
