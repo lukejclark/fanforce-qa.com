@@ -373,15 +373,19 @@ p {
   background-attachment: scroll;
 }
 .button-video {
-  text-align:center;
-  padding-right:136px;
+    margin-top:25px;
+    margin-left:250px;
+    position:absolute;
+    border:1px solid pink;
+    width:439px;
+    height:277px;
+    z-index:2;
+    text-align:center;
 }
-.button-video img {
-  z-index:3;
-  position:relative;
-  margin-top:90px;
-  position:absolute;
-}
+.button-video img { vertical-align:middle; max-height:151px; max-width:151px; opacity:0.85; filter:alpha(opacity=85); }
+.button-video-box { vertical-align:middle; display:inline-block; height:100%; }
+.button-video img:hover { opacity:1.0; filter:alpha(opacity=100); }
+
 .top-left-bo {
   margin-top: 57px;
 }
@@ -546,18 +550,8 @@ p {
   margin-left: auto;
 }
 @media (max-width: 991px) {
-  .button-video {
-    text-align:center;
-    padding-right:70px;
-  }
-  .button-video img {
-    z-index:3;
-    position:relative;
-    margin-top:80px;
-    position:absolute;
-    width:75px;
-    height:75px;
-  }
+  .button-video { margin-top:18px; margin-left:217px; width:294px; height:184px; }
+  .button-video img { max-height:75px; max-width:75px; }
   body {
     width: auto;
   }
@@ -761,18 +755,8 @@ p {
   }
 }
 @media (max-width: 767px) {
-  .button-video {
-    text-align:center;
-    padding-right:50px;
-  }
-  .button-video img {
-    z-index:3;
-    position:relative;
-    margin-top:110px;
-    position:absolute;
-    width:60px;
-    height:60px;
-  }
+  .button-video { margin-top:71px; margin-left:34.4%; width:201px; height:128px; }
+  .button-video img { max-height:55px; max-width:55px; }
   body {
     display: block;
     margin-right: auto;
@@ -1049,18 +1033,8 @@ p {
   }
 }
 @media (max-width: 479px) {
-  .button-video {
-    text-align:center;
-    padding-right:50px;
-  }
-  .button-video img {
-    z-index:3;
-    position:relative;
-    margin-top:45px;
-    position:absolute;
-    width:60px;
-    height:60px;
-  }
+  .button-video { margin-top:7px; margin-left:19%; width:201px; height:128px; }
+  .button-video img { max-height:55px; max-width:55px; }
   h2 {
     padding-top: 0px;
   }

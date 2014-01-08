@@ -49,9 +49,12 @@
     </div>
     <div class="top-section">
       <div class="w-container top-section-background">
-        <div class="w-row button-video">
-          <a class="fancybox-media" href="http://vimeo.com/83528978"><img src="images/button-playvideo.png"></a>
-        </div>
+        <a class="fancybox-media" href="http://vimeo.com/83528978">
+          <div class="button-video">
+            <span class="button-video-box"></span>
+            <img src="images/button-playvideo.png">
+          </div>
+        </a>
         <div class="w-row computer-row">
           <div class="w-col w-col-6 w-col-small-6 top-left-bo"><a class="w-hidden-tiny top-left-text" href="/universal-database.html" target="_self">Universal Database</a>
           </div>
@@ -142,11 +145,16 @@
     (function( $ ) {
       $(document).ready( function( ) {
         $('.fancybox-media').fancybox({
-          openEffect  : 'none',
-          closeEffect : 'none',
-          helpers : {
-            media : {}
-          }
+            fitToView	: true,
+            width		: '80%',
+            height		: '80%',
+            autoSize	: false,
+            closeClick	: false,
+            openEffect	: 'none',
+            closeEffect	: 'none',
+            helpers : {
+                media : {}
+            }
         });
       });
     })(jQuery);
