@@ -9,7 +9,12 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/webflow.css">
     <link rel="stylesheet" type="text/css" href="css/fanforcepage10.webflow.css">
+    <link rel="stylesheet" href="includes/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="includes/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="includes/jquery.fancybox-media.js"></script>
     <script>
       WebFont.load({
         google: {
@@ -20,6 +25,7 @@
     <link rel="icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/52122dbb84c696a2690007b9/favicon.png">
     <link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/521bc1cb94ec64853c000071/logo.png">
     <script type="text/javascript" src="js/webflow.js" defer></script>
+
   </head><body>
   <header class="section header">
     <div class="w-container is-this-it">
@@ -43,6 +49,9 @@
     </div>
     <div class="top-section">
       <div class="w-container top-section-background">
+        <div class="w-row button-video">
+          <a class="fancybox-media" href="http://vimeo.com/83528978"><img src="images/button-playvideo.png"></a>
+        </div>
         <div class="w-row computer-row">
           <div class="w-col w-col-6 w-col-small-6 top-left-bo"><a class="w-hidden-tiny top-left-text" href="/universal-database.html" target="_self">Universal Database</a>
           </div>
@@ -128,6 +137,20 @@
       </div>
     </div>
   </div>
+
+  <script>
+    (function( $ ) {
+      $(document).ready( function( ) {
+        $('.fancybox-media').fancybox({
+          openEffect  : 'none',
+          closeEffect : 'none',
+          helpers : {
+            media : {}
+          }
+        });
+      });
+    })(jQuery);
+  </script>
   <script type="text/javascript" src="http://i.fanforce.com/mad-scientist-fanforce.js"></script>
 </body>
 </html>
