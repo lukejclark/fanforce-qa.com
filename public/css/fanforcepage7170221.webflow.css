@@ -130,7 +130,7 @@ p {
 }
 .section.hero {
   margin-top: 0px;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
   padding-top: 62px;
   padding-bottom: 149px;
   background-image: url('../images/background.jpg');
@@ -703,7 +703,7 @@ p {
   text-align: left;
 }
 .email-box {
-  margin-left: 30px;
+  margin-left: 0px;
   padding-left: 12px;
   text-align: center;
 }
@@ -746,9 +746,10 @@ p {
 }
 .request-demo {
   display: block;
-  margin-top: 37px;
+  margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 17px;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white;
   font-size: 15px;
@@ -764,6 +765,23 @@ p {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+.sub {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  background-image: -webkit-linear-gradient(#4eb2d4, #28758f);
+  background-image: -o-linear-gradient(#4eb2d4, #28758f);
+  background-image: linear-gradient(#4eb2d4, #28758f);
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.form-field {
+  padding-right: 150px;
+  padding-left: 150px;
 }
 @media (max-width: 991px) {
   h2 {
@@ -1096,5 +1114,9 @@ p {
   .mid-containe {
     margin-top: 39px;
     margin-bottom: 0px;
+  }
+  .form-field {
+    padding-right: 49px;
+    padding-left: 50px;
   }
 }
