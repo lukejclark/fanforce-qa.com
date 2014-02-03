@@ -65,7 +65,7 @@ p {
   padding-left: 0px;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fcfafa;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 25px;
   text-align: center;
 }
@@ -86,7 +86,7 @@ p {
   font-size: 14px;
   text-align: center;
   text-decoration: none;
-  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
 }
 .button:hover {
   background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
@@ -96,7 +96,7 @@ p {
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
-  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
 }
 .button.app-store {
   width: 140px;
@@ -109,9 +109,9 @@ p {
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
-  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
 }
-.button:hover.app-store:hover {
+.button.app-store:hover {
   background-image: -webkit-linear-gradient(#2ca2ca, #0a5770);
   background-image: -o-linear-gradient(#2ca2ca, #0a5770);
   background-image: linear-gradient(#2ca2ca, #0a5770);
@@ -119,7 +119,7 @@ p {
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
-  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
 }
 .section {
   position: static;
@@ -131,7 +131,7 @@ p {
 .section.hero {
   padding-top: 0px;
   padding-bottom: 88px;
-  background-image: url(../images/background.jpg);
+  background-image: url('../images/background.jpg');
   background-size: cover;
 }
 .section.white {
@@ -160,7 +160,7 @@ p {
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: #016282;
-  background-image: url(../images/background.jpg);
+  background-image: url('../images/background.jpg');
 }
 .section.bottom {
   margin-top: 0px;
@@ -238,14 +238,14 @@ p {
   font-size: 42px;
   line-height: 50px;
   text-align: left;
-  text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.21) 0px 2px 0px;
 }
 .hero-subtitle {
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.83);
   font-size: 15px;
   line-height: 24px;
-  text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.21) 0px 2px 0px;
 }
 .big-image {
   text-shadow: none;
@@ -353,7 +353,7 @@ p {
   color: white;
   font-size: 22px;
   text-decoration: none;
-  text-shadow: rgba(0, 0, 0, 0.13) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .buttontwo:hover {
   background-image: -webkit-linear-gradient(bottom, #d8634c, #ffa27d);
@@ -363,7 +363,7 @@ p {
   -webkit-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
-  text-shadow: rgba(0, 0, 0, 0.13) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .feature {
   margin-top: 8px;
@@ -383,7 +383,8 @@ p {
   padding-bottom: 0px;
 }
 .feature-link {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   clear: none;
   direction: ltr;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -668,6 +669,24 @@ p {
 .social {
   padding-left: 300px;
 }
+.additionalpricing {
+  display: block;
+  margin-top: 76px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.see-more {
+  display: block;
+  margin-top: 31px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
 @media (max-width: 991px) {
   h2 {
     margin-top: 23px;
@@ -685,7 +704,7 @@ p {
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
   }
   .button.app-store {
     background-image: none;
@@ -693,9 +712,9 @@ p {
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
   }
-  .button:hover.app-store:hover {
+  .button.app-store:hover {
     background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
     background-image: -o-linear-gradient(#ff8d5e, #d7624b);
     background-image: linear-gradient(#ff8d5e, #d7624b);
@@ -703,15 +722,15 @@ p {
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
   }
   .section.hero {
     padding-bottom: 45px;
-    background-image: url(../images/background.jpg);
+    background-image: url('../images/background.jpg');
     background-size: auto 900px;
   }
   .section.purple {
-    background-image: url(../images/background.jpg);
+    background-image: url('../images/background.jpg');
   }
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
@@ -723,10 +742,10 @@ p {
     margin-top: 59px;
     padding-top: 0px;
     font-size: 38px;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.21) 0px 2px 0px;
   }
   .hero-subtitle {
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.21) 0px 2px 0px;
   }
   .big-image {
     text-shadow: black 0px 0px 0px;
@@ -794,7 +813,7 @@ p {
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
   }
   .button.app-store {
     margin-bottom: 0px;
@@ -803,7 +822,7 @@ p {
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
   }
   .section {
     padding-top: 9px;
@@ -812,7 +831,7 @@ p {
   }
   .section.hero {
     padding-top: 0px;
-    background-image: url(../images/background.jpg);
+    background-image: url('../images/background.jpg');
     text-align: center;
   }
   .hero-iphone {
@@ -837,7 +856,7 @@ p {
     margin-bottom: 44px;
     padding-top: 0px;
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.21) 0px 2px 0px;
   }
   .big-image {
     margin-top: 38px;
@@ -905,7 +924,7 @@ p {
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
   }
   .button.app-store {
     margin-top: 0px;
@@ -916,14 +935,14 @@ p {
     -webkit-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
   }
   .section {
     text-align: center;
   }
   .section.hero {
     padding-top: 0px;
-    background-image: url(../images/background.jpg);
+    background-image: url('../images/background.jpg');
   }
   .section.white {
     padding-top: 0px;
@@ -931,7 +950,7 @@ p {
   }
   .section.purple {
     margin-top: 25px;
-    background-image: url(../images/background.jpg);
+    background-image: url('../images/background.jpg');
   }
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
@@ -949,7 +968,7 @@ p {
   }
   .hero-header {
     font-size: 32px;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+    text-shadow: rgba(0, 0, 0, 0.21) 0px 2px 0px;
   }
   .big-image {
     text-shadow: black 0px 0px 0px;
