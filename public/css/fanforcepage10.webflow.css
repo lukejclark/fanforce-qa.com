@@ -1245,3 +1245,48 @@ p {
     margin-top: 0px;
   }
 }
+
+/* Tim, I took this out of the download and put it right here at the bottom */
+.testimony {
+  margin-top: -41px;
+  margin-bottom: 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  opacity: 1;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #636262;
+  font-size: 20px;
+  line-height: 40px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+}
+.testimony.quote {
+  margin-top: 138px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-family: Inconsolata, monospace;
+  font-size: 100px;
+}
+.testimony.quote.left {
+  margin-top: 78px;
+  padding-bottom: 0px;
+  padding-left: 11px;
+  font-family:'Great Vibes', cursive;
+  color: #b8b4b4;
+  font-size: 75px;
+  text-align: left;
+}
+.testimony.quote.right {
+  display: block;
+  margin-top: -77px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:'Great Vibes', cursive;
+  color: #b8b4b4;
+  font-size: 75px;
+}
+.testimony-section {
+  margin-top: 115px;
+  border-top: 1px solid #cccaca;
+}
